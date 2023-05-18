@@ -12,6 +12,7 @@ def newFile():
 
 
 def openFile():
+    print("testing")
     global file
     file = askopenfilename(defaultextension=".txt",
                            filetypes=[("All Files", "*.*"),
